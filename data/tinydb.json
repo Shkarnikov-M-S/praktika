@@ -1,0 +1,119 @@
+{
+  "customers": {
+    "1": {
+      "id": 1,
+      "name": "Иван Петров",
+      "phone": "+79001111111",
+      "address": "ул. Ленина, 1"
+    },
+    "2": {
+      "id": 2,
+      "name": "Мария Сидорова",
+      "phone": "+79002222222",
+      "address": "пр. Мира, 10"
+    },
+    "3": {
+      "id": 3,
+      "name": "Алексей Кузнецов",
+      "phone": "+79003333333",
+      "address": "ул. Гагарина, 5"
+    },
+    "4": {
+      "id": 4,
+      "name": "Ольга Новикова",
+      "phone": "+79004444444",
+      "address": "ул. Пушкина, 7"
+    }
+  },
+  "orders": {
+    "1": {
+      "id": 1,
+      "customer_id": 1,
+      "order_date": "2026-10-07",
+      "status": "выполнен",
+      "total": 1500.0,
+      "items": [
+        {
+          "product_name": "Пицца",
+          "quantity": 2,
+          "price": 750.0
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "customer_id": 2,
+      "order_date": "2026-10-07",
+      "status": "новый",
+      "total": 900.0,
+      "items": [
+        {
+          "product_name": "Суши",
+          "quantity": 1,
+          "price": 900.0
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "customer_id": 1,
+      "order_date": "2026-10-05",
+      "status": "в доставке",
+      "total": 900.0,
+      "items": [
+        {
+          "product_name": "Бургер",
+          "quantity": 3,
+          "price": 300.0
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "customer_id": 3,
+      "order_date": "2026-10-01",
+      "status": "выполнен",
+      "total": 1120.0,
+      "items": [
+        {
+          "product_name": "Салат",
+          "quantity": 4,
+          "price": 250.0
+        },
+        {
+          "product_name": "Сок",
+          "quantity": 1,
+          "price": 120.0
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "customer_id": 4,
+      "order_date": "2026-08-28",
+      "status": "отменён",
+      "total": 500.0,
+      "items": [
+        {
+          "product_name": "Паста",
+          "quantity": 1,
+          "price": 500.0
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "customer_id": 3,
+      "order_date": "2026-10-07",
+      "status": "в доставке",
+      "total": 400.0,
+      "items": [
+        {
+          "product_name": "Суп",
+          "quantity": 2,
+          "price": 200.0
+        }
+      ]
+    }
+  }
+}

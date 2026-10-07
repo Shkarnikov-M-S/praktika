@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.coverage
+htmlcov/
+logs/*.log
